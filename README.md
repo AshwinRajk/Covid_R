@@ -17,17 +17,17 @@ Analysis
 
 The analysis is performed in R programming language. Here's an overview of what's included:
 
-Data Import: The dataset is read from the "COVID19_line_list_data.csv" file.
+1.Data Import: The dataset is read from the "COVID19_line_list_data.csv" file.
 
-Descriptive Statistics: The describe function from the Hmisc package is used to obtain descriptive statistics of the dataset.
+2.Descriptive Statistics: The describe function from the Hmisc package is used to obtain descriptive statistics of the dataset.
 
-Data Cleaning: A new variable death_dummy is created to indicate whether a case resulted in death or not.
+3.Data Cleaning: A new variable death_dummy is created to indicate whether a case resulted in death or not.
 
-Death Rate Calculation: The death rate is calculated as the proportion of cases resulting in death.
+4.Death Rate Calculation: The death rate is calculated as the proportion of cases resulting in death.
 
-Age Analysis: A t-test is performed to compare the mean age of deceased and surviving cases.
+5.Age Analysis: A t-test is performed to compare the mean age of deceased and surviving cases.
 
-Gender Analysis: A t-test is performed to compare the mortality rates between genders.
+6.Gender Analysis: A t-test is performed to compare the mortality rates between genders.
 
 Results
 
